@@ -1,2 +1,6 @@
 SELECT * FROM SYS.SQL_MODULES m
 WHERE m.definition LIKE '%some_text%'
+
+SELECT *
+FROM   INFORMATION_SCHEMA.VIEWS
+WHERE  VIEW_DEFINITION like '%some_text%';
